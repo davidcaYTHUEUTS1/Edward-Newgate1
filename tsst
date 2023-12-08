@@ -1,0 +1,70 @@
+for _, v in pairs(workspace.Boats:GetDescendants()) do
+            if v.Name == "PirateBasic"  and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                v.VehicleSeat.BodyPosition.Position = Vector3.new(0,200,0)
+                v.VehicleSeat.MaxSpeed = 300
+                v.VehicleSeat.Torque = 0.2
+                v.VehicleSeat.TurnSpeed = 5
+                v.VehicleSeat.HeadsUpDisplay = true
+            end
+        end
+        for _, v in pairs(workspace.Boats:GetDescendants()) do
+            if v.Name == "PirateBasic" and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.VehicleSeat.CFrame
+            end
+        end
+        for _, X in pairs(workspace.Boats:GetDescendants()) do
+            if x.Name == "PirateBrigade"  and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                v.VehicleSeat.BodyPosition.Position = Vector3.new(0,200,0)
+                v.VehicleSeat.MaxSpeed = 300
+                v.VehicleSeat.Torque = 0.2
+                v.VehicleSeat.TurnSpeed = 5
+                v.VehicleSeat.HeadsUpDisplay = true
+            end
+        end
+        for _, X in pairs(workspace.Boats:GetDescendants()) do
+            if x.Name == "PirateBrigade" and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.VehicleSeat.CFrame
+            end
+        end
+        for _, d in pairs(workspace.Boats:GetDescendants()) do
+            if d.Name == "PirateSloop"  and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                v.VehicleSeat.BodyPosition.Position = Vector3.new(0,200,0)
+                v.VehicleSeat.MaxSpeed = 300
+                v.VehicleSeat.Torque = 0.2
+                v.VehicleSeat.TurnSpeed = 5
+                v.VehicleSeat.HeadsUpDisplay = true
+            end
+        end
+        for _, d in pairs(workspace.Boats:GetDescendants()) do
+            if d.Name == "PirateSloop" and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.VehicleSeat.CFrame
+            end
+        end
+        for _, b in pairs(workspace.Boats:GetDescendants()) do
+            if b.Name == "Dinghy"  and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                v.VehicleSeat.BodyPosition.Position = Vector3.new(0,200,0)
+                v.VehicleSeat.MaxSpeed = 300
+                v.VehicleSeat.Torque = 0.2
+                v.VehicleSeat.TurnSpeed = 5
+                v.VehicleSeat.HeadsUpDisplay = true
+            end
+        end
+        for _, b in pairs(workspace.Boats:GetDescendants()) do
+            if b.Name == "Dinghy" and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.VehicleSeat.CFrame
+            end
+        end
+        for _, n in pairs(workspace.Boats:GetDescendants()) do
+            if n.Name == "Swan"  and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                v.VehicleSeat.BodyPosition.Position = Vector3.new(0,200,0)
+                v.VehicleSeat.MaxSpeed = 300
+                v.VehicleSeat.Torque = 0.2
+                v.VehicleSeat.TurnSpeed = 5
+                v.VehicleSeat.HeadsUpDisplay = true
+            end
+        end
+        for _, n in pairs(workspace.Boats:GetDescendants()) do
+            if n.Name == "Swan" and tostring(v.Owner.Value) == tostring(game.Players.LocalPlayer.Name) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.VehicleSeat.CFrame
+            end
+        end
