@@ -4260,7 +4260,7 @@ local W =
     Window:MakeTab(
     {
         Name = " Info",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4268,8 +4268,8 @@ local W =
 local M =
     Window:MakeTab(
     {
-        Name = " General",
-        Icon = "rbxassetid://9242918232",
+        Name = " Main",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4278,7 +4278,7 @@ local ST =
     Window:MakeTab(
     {
         Name = " Setting",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4287,7 +4287,7 @@ local IQ =
     Window:MakeTab(
     {
         Name = " Item & Quest",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4296,7 +4296,7 @@ local S =
     Window:MakeTab(
     {
         Name = " Stats",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4305,7 +4305,7 @@ local E =
     Window:MakeTab(
     {
         Name = " ESP",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4314,7 +4314,7 @@ local RA =
     Window:MakeTab(
     {
         Name = " Raid",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4323,7 +4323,7 @@ local LC =
     Window:MakeTab(
     {
         Name = " Local Players",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4332,7 +4332,7 @@ local Wld =
     Window:MakeTab(
     {
         Name = " World Teleport",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4341,7 +4341,7 @@ local SV =
     Window:MakeTab(
     {
         Name = " Status Sever",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4350,7 +4350,7 @@ local D =
     Window:MakeTab(
     {
         Name = " Devil Fruit",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4359,7 +4359,7 @@ local R =
     Window:MakeTab(
     {
         Name = " Race V4",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4368,7 +4368,7 @@ local SH =
     Window:MakeTab(
     {
         Name = " Shop",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4377,7 +4377,7 @@ local C =
     Window:MakeTab(
     {
         Name = " Misc",
-        Icon = "rbxassetid://9242918232",
+        Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     }
 )
@@ -4390,7 +4390,7 @@ local Section =
     }
 )
 
-W:AddLabel("Script By Edward NewgateGAMING")
+W:AddLabel("Script By Edward Newgate")
 
 local Section =
     W:AddSection(
@@ -12503,7 +12503,7 @@ spawn(
                             OrionLib:MakeNotification(
                                 {
                                     Name = "Edward Newgate Hub",
-                                    Content = "[EN] : Please cancel the farrm level quest (if any)",
+                                    Content = "[EN] : Please cancel the farrm level quest",
                                     Image = "rbxassetid://4483345998",
                                     Time = 9
                                 }
@@ -12802,7 +12802,7 @@ spawn(
                                 {
                                     Name = "Edward Newgate Hub",
                                     Content = "!!You Are Max Point!!",
-                                    Image = "rbxassetid://14919714384",
+                                    Image = "rbxassetid://4483345998",
                                     Time = 5
                                 }
                             )
